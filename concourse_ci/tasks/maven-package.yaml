@@ -14,8 +14,9 @@ run:
   path: "mvn"
   args:
     - -f
-    - spring-boot-service/DockerSample/pom.xml
+    - spring-boot-service/dockersample/pom.xml
     - clean
+    - -DskipTests=true
     - package
     
 outputs:
