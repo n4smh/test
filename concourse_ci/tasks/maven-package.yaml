@@ -12,7 +12,7 @@ inputs:
 
 run:
   path: ls
-  args: ["-la", "./spring-boot-service"]
+  args: ["-la", "./spring-boot-service/DockerSample"]
 outputs:
   - name: spring-boot-service-out
     path: spring-boot-service/DockerSample
