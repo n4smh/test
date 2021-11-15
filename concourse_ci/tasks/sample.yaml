@@ -11,8 +11,8 @@ inputs:
   - name: spring-boot-service-out
 
 run:
-  path: /bin/bash
-  args: "spring-boot-service/concourse_ci/tasks/sample.sh"
+  path: /bin/sh
+  args: ["spring-boot-service/concourse_ci/tasks/sample.sh"]
     
 outputs:
   - name: spring-boot-service-out1
