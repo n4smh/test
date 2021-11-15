@@ -11,12 +11,8 @@ inputs:
   - name: spring-boot-service
 
 run:
-  path: "mvn"
-  args:
-    - -f
-    - spring-boot-service/DockerSample/pom.xml
-    - clean
-    - test
+  path: ls
+  args: ["-la", "./spring-boot-service/DockerSample"]
 outputs:
   - name: spring-boot-service-out
     path: spring-boot-service/DockerSample
