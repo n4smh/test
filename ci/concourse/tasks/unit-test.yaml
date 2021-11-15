@@ -32,4 +32,4 @@ run:
       mvn -f git/DockerSample/pom.xml test
 
       # Make this output available to the 'test' Job
-      cp -R git/* build
+      cp -R git/DockerSample/* build
