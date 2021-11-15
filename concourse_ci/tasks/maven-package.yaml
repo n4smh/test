@@ -14,10 +14,10 @@ run:
   path: "mvn"
   args:
     - -f
-    - spring-boot-service/dockersample/pom.xml
+    - spring-boot-service/DockerSample/pom.xml
     - clean
     - package
     
 outputs:
   - name: spring-boot-service-out
-    path: spring-boot-service/dockersample
+    path: spring-boot-service
